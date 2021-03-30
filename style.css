@@ -25,6 +25,16 @@ footer {
   height: 10vh;
 }
 
+.hypertext {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: underline;
+}
+
+.project-click{
+  color: black;
+}
+
 .font-sansita {
   font-family: 'Sansita Swashed', cursive;
 }
@@ -99,6 +109,22 @@ footer {
 
 .tab { 
   margin-left: 40px; 
+}
+
+.zoom {
+  transition: transform .2s;
+}
+.zoom-icon {
+  transition: transform .2s;
+}
+
+@media screen and (min-width: 769px) {
+  .zoom:hover {
+    transform: scale(1.25);
+  }
+  .zoom-icon:hover{
+    transform: scale(2.0);
+  }
 }
 
 @media screen and (min-width: 576px) {
