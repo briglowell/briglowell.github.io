@@ -1,0 +1,104 @@
+:root {
+  --forest: rgb(34, 114, 65);
+  --slate: rgb(58, 53, 53);
+  --light: rgb(238, 238, 238);
+  --text: rgb(58, 54, 54);
+  --granite: rgb(180, 179, 179);
+  --slate: rgb(43, 43, 43);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  height: 10vh;
+}
+
+.font-sansita {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.border-left-thick {
+  border-left: 10px solid black;
+}
+
+.img-banner {
+  background-image: url(https://wallpaperaccess.com/full/357883.jpg);
+  height: 50vh;
+  background-size: cover;
+}
+
+.img-knight {
+  background-image: url(https://i.imgur.com/hKHPNbQ.jpg);
+}
+
+.bg-forest {
+  background-color: var(--forest);
+}
+
+.bg-slate {
+  background-color: var(--slate);
+}
+
+.bg-granite {
+  background-color: var(--granite);
+}
+
+.text-forest {
+  color: var(--forest);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-default {
+  color: var(--text);
+}
+
+.bar-xs {
+  height: 15px;
+  width: 25%;
+  background-color: var(--slate);
+}
+
+.bar-sm {
+  height: 15px;
+  width: 50%;
+  background-color: var(--slate);
+}
+
+.bar-md {
+  height: 15px;
+  width: 60%;
+  background-color: var(--slate);
+}
+
+.bar-lg {
+  height: 15px;
+  width: 80%;
+  background-color: var(--slate);
+}
+
+.bar-xl {
+  height: 15px;
+  width: 100%;
+  background-color: var(--slate);
+}
+
+@media screen and (min-width: 576px) {
+  .abs-position {
+    position: absolute;
+  }
+}
